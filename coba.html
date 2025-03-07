@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELAJAR HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>coba html</h1>
+    <h2>Indah Haerunnisa</h2>
+    <p>
+        <img src="spongebob.jpg" alt="spongebob" width="100"> 
+        Ilmu komputer angkatan 23.
+    </p>
+
+    <h3>Data Mahasiswa</h3>
+
+    <!-- Form untuk menambah data mahasiswa -->
+    <div class="form-container">
+        <input type="text" id="nama" placeholder="Nama">
+        <input type="text" id="jurusan" placeholder="Jurusan">
+        <input type="number" id="usia" placeholder="Usia">
+        <button onclick="tambahData()">Tambah</button>
+    </div>
+
+    <!-- Tabel data mahasiswa -->
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Jurusan</th>
+                <th>Usia</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody id="dataMahasiswa">
+            <!-- Data akan muncul di sini -->
+        </tbody>
+    </table>
+
+    <a href="https://www.google.com">Kunjungi Google</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
